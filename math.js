@@ -7,6 +7,10 @@ const division = (a, b) => {
   //devuelve un numero con 2 decimales
   return parseFloat((a / b).toFixed(2));
 };
+const esPar = (a) => {
+  if(a % 2 === 0) return true;
+  return false;
+}
 
 
 module.exports = {
