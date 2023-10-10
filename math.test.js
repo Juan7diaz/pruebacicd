@@ -71,7 +71,7 @@ describe('test de la funcion division ', () => {
     expect(res).toBe(0.19);
   });
 
-  test('la operacion 0 / 0 debe ser NaN', () => {
+  test('la operacion 0 / 0 debe regresar el texto no se puede divir por 0', () => {
     const res = division(0,0);
     expect(res).toBe("No se puede dividir por 0");
   });
